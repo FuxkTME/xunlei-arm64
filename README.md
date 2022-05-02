@@ -46,6 +46,6 @@ journalctl -fu xunlei
 1. 找到里面的 package.tgz, 再解压一次
 1. 找到里面的文件: `xunlei-pan-cli-launcher.arm64`, `xunlei-pan-cli.版本号.arm64`, `index.cgi`
 1. 找到里面的文件: 与 `xunlei-pan-cli.版本号.arm64` 同目录的version文件
-1. 将 `index.cgi` 改名为 `xunlei-pan-cli-web`
+1. 将 `index.cgi` 改名为 `xunlei-pan-cli-web`,`xunlei-pan-cli-launcher.arm64`改名为`xunlei-pan-cli-launcher`
 1. 将这四个文件复制到源码target目录
 1. 改你要改的，改完后编译。
