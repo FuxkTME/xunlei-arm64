@@ -5,9 +5,11 @@
 [![GitHub Stars](https://img.shields.io/github/stars/cnk3x/xunlei)](https://star-history.com/#cnk3x/xunlei&Date)
 
 从迅雷群晖套件中提取出来用于其他设备的迅雷远程下载服务程序。仅供研究学习测试。 \
-本程序仅提供Linux模拟和容器化运行环境，未对原版迅雷程序进行任何修改。
+本程序仅提供 Linux 模拟和容器化运行环境，未对原版迅雷程序进行任何修改。
 
 ## 使用
+
+***重要提醒: 如果使用 v3.20.0 和 v3.20.1 版本，请更新到 v3.20.2 或更新版本。 https://github.com/cnk3x/xunlei/issues/184***
 
 ### Docker
 
@@ -21,7 +23,7 @@ ghcr.io/cnk3x/xunlei:latest
 
 **常规**的容器，还是要在特权模式下运行。
 
-如果docker的存储驱动如果是btrfs或者overlayfs，可以支持的非特权运行。
+如果 docker 的存储驱动如果是 btrfs 或者 overlayfs，可以支持的非特权运行。
 
 #### 环境变量参数
 
